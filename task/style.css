@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar1 {
+    background-color: yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bar2 {
+    background-color: lightblue;
+}
+
+.bar3 {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar4 {
+    background-color: black;
+    display: flex;
+}
+
+.bar5 {
+    background-color: black;
+    display: flex;
+}
+
+.bars {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: center;
+    word-spacing: 50px;
+}
+
+li {
+    display: inline;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link1 {
+    background-color: red;
+    color: black;
+}
+
+.link2 {
+    color: black;
+}
+
+.link3 {
+    color: white;
+}
+
+.link5 {
+    color: white;
+}
+
+.link6 {
+    color: white;
+}
+
+.lin .link1:hover {
+    background-color: lightblue;
+    color: blue;
+}
+
+.link2:hover {
+    background-color: yellow;
+    color: red;
+    border-radius: 20px;
+}
+
+span {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: blue;
+    border: none;
+}
+
+.link4 {
+    color: white;
+}
+
+.push {
+    margin-right: auto;
+}
+
+.move {
+    margin-right: auto;
+    order: 1;
+}
+
+.push2 {
+    margin-left: auto;
+    order: 2;
+}
+
+.btn1 {
+    order: 3;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: blue;
+}
