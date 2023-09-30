@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.fixer-div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 60vh;
+    width: 60vw;
+    background-image: url('img.jpg.jpg');
+    background-size: cover;
+    background-repeat: circle;
+    z-index: 0;
+}
+ 
+.content{
+    border: 2px solid black;
+    margin-top: auto;
+}
