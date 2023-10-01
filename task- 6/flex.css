@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60vw;
+    height: 60vh;
+    background-color: brown;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+}
+ 
+.box{
+    width: 10;
+    height: 10;
+    background-color: aqua;
+    margin: 8px;
+    padding: 8px;
+}
+
