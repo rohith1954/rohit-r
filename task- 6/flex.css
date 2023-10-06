@@ -14,7 +14,16 @@
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
     flex-flow: row wrap;
+
+
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
+
  
 .box{
     width: 10;
